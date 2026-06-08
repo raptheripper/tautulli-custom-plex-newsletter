@@ -156,7 +156,7 @@ Supports:
 - Local poster caching
 - Cloudinary poster hosting
 
-### docker-compose.yml
+### compose.yml
 Docker Compose example.
 
 ### example.env
@@ -236,7 +236,7 @@ Create the above directory structure and place all of the included files in thei
         
             restart: unless-stopped 
 
-The included docker-compose.yml example needs to be edited before creating the docker containers. The example file includes two containers:
+The included compose.yml example needs to be edited before creating the docker containers. The example file includes two containers:
 
 ### plex-cache container
 This container installs:
@@ -298,7 +298,7 @@ With:
 
 ## Environment Variables
 
-The included docker-compose.yml example uses:
+The included compose.yml example uses:
 
     env_file: 
       -.env
