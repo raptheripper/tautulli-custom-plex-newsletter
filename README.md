@@ -39,7 +39,7 @@ Enhanced responsive Tautulli newsletter featuring poster & metadata caching, lib
 ### Desktop
 
 **Logo header + counter**
-![(screenshot)]([https://assets.synnas.net/github/tautulli-custom-plex-newsletter/screenshots/desktop-logo-header-counters.png](https://github.com/raptheripper/tautulli-custom-plex-newsletter/blob/06e09fd6e699edb9b4125c74b07fa0d55b467e01/docs/screenshots/desktop/desktop-logo-header-counters.png))
+![(screenshot)](https://github.com/raptheripper/tautulli-custom-plex-newsletter/blob/06e09fd6e699edb9b4125c74b07fa0d55b467e01/docs/screenshots/desktop/desktop-logo-header-counters.png)
 
 **4-column layout with mouse-over effect**
 ![enter image description here](https://assets.synnas.net/github/tautulli-custom-plex-newsletter/screenshots/desktop-4-column-layout.png)
