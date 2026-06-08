@@ -40,26 +40,33 @@ Enhanced responsive Tautulli newsletter featuring poster & metadata caching, lib
 
 **Logo header + counter**
 ![(screenshot)](docs/screenshots/desktop/desktop-logo-header-counters.png)
+---
 
 **4-column layout with mouse-over effect**
 ![enter image description here](docs/screenshots/desktop/desktop-4-column-layout.png)
+---
 
 **3-column layout**
 ![enter image description here](docs/screenshots/desktop/desktop-3-column-layout.png)
+---
 
 ### Mobile View
 
 **Logo header + counter (portrait orientation)**
 ![enter image description here](docs/screenshots/mobile/mobile-logo-header-counters.jpg)
+---
 
 **1-column layout (portrait orientation)**
 ![enter image description here](docs/screenshots/mobile/mobile-1-column-layout.jpeg)
+---
 
 **2-column layout (portrait orientation)**
 ![enter image description here](docs/screenshots/mobile/mobile-2-column-layout.PNG)
+---
 
 **3-column layout (landscape orientation)**
 ![enter image description here](docs/screenshots/mobile/mobile-3-column-layout.PNG)
+---
 
 ---
 ## Live Demo
