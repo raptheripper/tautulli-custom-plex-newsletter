@@ -1,0 +1,39 @@
+services:
+
+  plex-cache:
+    image: python:3.11-slim
+    container_name: plex-cache
+
+    network_mode: host
+    working_dir: /python
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./python:/python
+      - ./public/cache:/cache
+      - ./requirements.txt:/requirements.txt
+
+    command: >
+      sh -c "
+      pip install --no-cache-dir -r /requirements.txt &&
+      tail -f /dev/null
+      "
+
+    restart: unless-stopped
+
+
+  poster-cache:
+    image: nginx:alpine
+    container_name: poster-cache
+
+    ports:
+      - "8095:80"
+
+    volumes:
+      - ./public:/usr/share/nginx/html:ro
+      - ./newsletters:/newsletters:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+    restart: unless-stopped
